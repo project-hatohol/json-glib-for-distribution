@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/*
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*.pc
-%{_datadir}/*
+%{_datadir}/gtk-doc/*
 
 %changelog
 * Mon Jul 08 2013 Kazuhiro Yamato <kazuhiro.yamato@miraclelinux.com>
